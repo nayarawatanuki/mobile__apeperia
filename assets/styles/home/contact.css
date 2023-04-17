@@ -1,0 +1,24 @@
+.contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;    
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.contact__title {
+    color: var(--dark-gray);
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact__button {
+    border-color: var(--dark-gray);
+    color: var(--dark-gray);
+    margin-top: 1rem;
+}

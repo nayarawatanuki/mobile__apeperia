@@ -1,0 +1,39 @@
+.header {
+    
+    align-items: center;
+    border-bottom: 1px solid var(--header-border);
+    box-sizing: border-box;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+    position: absolute;
+    width: 100%;
+}
+
+.header__logo {
+    margin-bottom: 1rem;
+}
+
+.header__nav {
+    text-align: center;
+}
+
+.header__link {
+    
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .header {
+        border: none;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
